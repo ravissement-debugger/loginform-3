@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(anxiety-induced-by-dark-forest.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    height: 410px;
+    border: 3px solid;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.login-box h2 {
+    color: #efefef;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+#input, #password {
+    width: 90%;
+    position: relative;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+    margin-top: 35px;
+    color: #EFEFEF;
+}
+
+
+#input {
+
+    margin-bottom: 15px;
+}
+
+
+.input-text {
+    color: #ccc;
+    position: absolute;
+    font-size: small;
+    left: 5%;
+    bottom: 77%;
+}
+
+#password-text {
+    top: 42%;
+    font-size: small;
+
+}
+
+
+.tick {
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 30px ;
+
+}
+
+.tick p {
+
+    color: aliceblue;
+    margin-right: 130px;
+    font-size: 0.9rem;
+}
+
+.tick a {
+
+    text-decoration: none;
+    color:  rgb(46, 44, 44);
+    font-weight: bolder;
+    margin-right: 5px;
+}
+
+
+.tick a:hover {
+
+    text-decoration: underline;
+
+}
+
+#checkbox {
+    margin-left: 10px;
+}
+
+.loggin {
+
+    margin-top: 30px;
+}
+
+.loggin button {
+
+    width: 90%;
+    height: 45px;
+    padding: 10px;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+
+}
+
+.loggin button:hover {
+
+background-color: transparent;
+color: #EFEFEF;
+cursor: pointer;
+
+}
+
+
+
+
+.additionalinfo {
+    margin-top:20px;
+}
+
+
+.additionalinfo p  {
+        
+    color: azure;
+    font-size: 0.9rem;
+
+}
+
+.additionalinfo a {
+
+    text-decoration: none;
+    color: slategrey;
+}
+
+
+.additionalinfo a:hover {
+
+    text-decoration: underline;
+    color: slategrey;
+}
